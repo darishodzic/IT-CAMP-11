@@ -1,0 +1,23 @@
+.card {
+  width: 500px;
+  height: 190px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+button {
+  color: white;
+  background-color: purple;
+  border: none;
+  font-size: 20px;
+  padding: 11px 20px;
+  border-radius: 6px;
+}
