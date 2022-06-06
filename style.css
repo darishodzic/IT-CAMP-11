@@ -1,0 +1,27 @@
+.card {
+  width: 500px;
+  height: 510px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+.mainImage {
+  width: 480px;
+  height: 230px;
+  border-radius: 15px;
+}
+
+.designer {
+  color: yellow;
+  font-size: 20px;
+}
