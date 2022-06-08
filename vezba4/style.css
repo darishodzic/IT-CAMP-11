@@ -1,0 +1,30 @@
+div {
+  border: 1px solid;
+}
+
+.container {
+  width: 800px;
+  height: 150px;
+  position: relative;
+}
+
+.logo {
+  width: 370px;
+  height: 40px;
+}
+
+.topMenu {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.menu {
+  width: 450px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
