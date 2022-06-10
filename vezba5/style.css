@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 30px;
+}
+
+.container {
+  height: 80vh;
+  width: 70vw;
+  margin: 100px 300px;
+  position: relative;
+}
+
+.left,
+.right {
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+}
+
+.left {
+  padding-top: 100px;
+  position: absolute;
+}
+
+.right {
+  background-color: grey;
+  position: absolute;
+  right: 0;
+}
+
+h3 {
+  font-size: 17px;
+  color: gray;
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 37px;
+  margin-top: 0;
+}
+
+.slider {
+  height: 40px;
+  border-bottom: 2px solid grey;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 65px;
+}
+
+p {
+  font-size: 20px;
+  color: gray;
+}
+
+.spec {
+  height: 40px;
+  position: relative;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+h4 {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0;
+}
+
+.rightText {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.pricing {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  padding: 13px 20px;
+  background-color: palegreen;
+  border: none;
+  border-radius: 7px;
+}
