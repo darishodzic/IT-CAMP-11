@@ -1,0 +1,49 @@
+.card {
+  width: 100px;
+  height: 100px;
+  margin: 150px;
+  background-color: red;
+  animation: mojaAnimacija 2s ease-in-out;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@keyframes mojaAnimacija {
+  0% {
+    background-color: green;
+    left: 0;
+    top: 0;
+  }
+  25% {
+    background-color: pink;
+    left: 300px;
+    top: 0;
+  }
+  50% {
+    background-color: red;
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    left: 0px;
+    top: 300px;
+    background-color: pink;
+  }
+  100% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/* .card:hover {
+  transform: rotate(-45deg);
+  transform: scale(2);
+  transform: scaleX(2);
+  transform: scaleY(2);
+  transform: scale(2, 0.5);
+  transform: translate(100px, 100px);
+  transform: translateX(100px);
+  transform: translateY(-100px);
+  transform: skew(360deg);
+} */
