@@ -1,0 +1,12 @@
+.mojaNekaKlasa {
+  background-color: blue;
+  color: white;
+  font-size: 7rem;
+}
+
+.card {
+  /* text-shadow: 1px 1px 15px rgb(209, 70, 70); */
+  width: 300px;
+  height: 180px;
+  background: linear-gradient(to right, red, yellow, green);
+}
