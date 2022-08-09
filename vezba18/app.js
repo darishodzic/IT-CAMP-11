@@ -145,15 +145,58 @@
 //   }
 // }
 
-end = Number(prompt("Unesi broj"));
+// end = Number(prompt("Unesi broj"));
 
-for (i = 1; i <= end; i++) {
-  console.log("Cube of " + i + " is " + i ** 3);
-}
+// for (i = 1; i <= end; i++) {
+//   console.log("Cube of " + i + " is " + i ** 3);
+// }
 
-for (i = 0; i < 5; i++) {
-  console.log(i);
-  for (j = 0; j < 5; j++) {
-    console.log(j);
+// for (i = 0; i < 5; i++) {
+//   console.log(i);
+//   for (j = 0; j < 5; j++) {
+//     console.log(j);
+//   }
+// }
+
+// *
+// **
+// ***
+// ****
+
+// str = "";
+// kolicina = Number(prompt("Unesi broj"));
+
+// for (i = 1; i <= kolicina; i++) {
+//   str += i;
+//   console.log(str);
+// }
+
+// 1
+// 22
+// 333
+// 4444
+
+// for (i = 1; i <= 4; i++) {
+//   str = "";
+//   for (j = 1; j <= i; j++) {
+//     str += i;
+//   }
+//   console.log(str);
+// }
+
+// console.log("   *   ");
+// console.log("  * *  ");
+// console.log(" * * * ");
+// console.log("* * * *");
+
+unos = Number(prompt("Unesi broj"));
+zvezdice = "";
+
+for (i = 1; i <= unos; i++) {
+  space = "";
+  for (j = 1; j <= unos - i; j++) {
+    space += " ";
   }
+  zvezdice += "* ";
+  console.log(space + zvezdice);
 }
