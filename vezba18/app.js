@@ -189,14 +189,61 @@
 // console.log(" * * * ");
 // console.log("* * * *");
 
-unos = Number(prompt("Unesi broj"));
-zvezdice = "";
+// unos = Number(prompt("Unesi broj"));
+// zvezdice = "";
 
-for (i = 1; i <= unos; i++) {
-  space = "";
-  for (j = 1; j <= unos - i; j++) {
-    space += " ";
-  }
-  zvezdice += "* ";
-  console.log(space + zvezdice);
-}
+// for (i = 1; i <= unos; i++) {
+//   space = "";
+//   for (j = 1; j <= unos - i; j++) {
+//     space += " ";
+//   }
+//   zvezdice += "* ";
+//   console.log(space + zvezdice);
+// }
+
+// ["Hello world", 40, 30, 20, 10];
+//  0    1  2    3    4
+
+// "Hello world"
+//  012345678910
+
+// a = "Hello world";
+
+// console.log(a[15]);
+
+var1 = "Hello world I am Daris nesto asd";
+
+var2 = "Daris";
+// console.log("dArIs".toUpperCase());
+// console.log("dArIs".toLowerCase());
+// console.log("dArIs".concat(var1, "dd"));
+
+// var3 = var1.concat("NESTO", var2);
+// console.log("            daris          ");
+
+// console.log("            dar  is          ".trim());
+// console.log("Hello world".slice(2, 8));
+// console.log("Hello world".substring(2, 8));
+
+// console.log("Hello world".substr(2, 8));
+
+// console.log(
+//   "Microsoft Please visit Microsoft!".replace("Microsoft", "Centar NIT")
+// );
+
+// console.log(var2[1]);
+// console.log(var2.charAt(1));
+// console.log(var2.indexOf("ri"));
+
+// console.log(var1.includes("asd"));
+
+// console.log(var1.split(" "));
+
+arr = ["Hello world", 40, 30, 20, 10];
+
+// console.log(arr.join(" "));
+
+// console.log(arr.slice(1, 3));
+console.log(arr);
+console.log(arr.splice(1, 3, "DARIS", "NESTO", "ADSAS"));
+console.log(arr);
