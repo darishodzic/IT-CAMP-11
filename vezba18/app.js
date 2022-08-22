@@ -211,9 +211,9 @@
 
 // console.log(a[15]);
 
-var1 = "Hello world I am Daris nesto asd";
+// var1 = "Hello world I am Daris nesto asd";
 
-var2 = "Daris";
+// var2 = "Daris";
 // console.log("dArIs".toUpperCase());
 // console.log("dArIs".toLowerCase());
 // console.log("dArIs".concat(var1, "dd"));
@@ -239,11 +239,98 @@ var2 = "Daris";
 
 // console.log(var1.split(" "));
 
-arr = ["Hello world", 40, 30, 20, 10];
+// arr = ["Hello world", 40, 30, 20, 10];
 
 // console.log(arr.join(" "));
 
 // console.log(arr.slice(1, 3));
-console.log(arr);
-console.log(arr.splice(1, 3, "DARIS", "NESTO", "ADSAS"));
-console.log(arr);
+// console.log(arr);
+// console.log(arr.splice(1, 3, "DARIS", "NESTO", "ADSAS"));
+// console.log(arr);
+
+// arr = [10, 15, 24];
+
+// arr.push(3, 4, 1);
+// arr.unshift(3);
+// console.log("PRE", arr);
+// b = arr.pop();
+// b = arr.shift();
+
+// console.log("POSLE", arr);
+
+// function mojaF() {
+//   console.log("fizzzzzzzzzzzzz");
+// }
+
+// function print(a) {
+//   console.log(a);
+// }
+
+// print("Daris");
+
+// print("Nesto");
+
+// function sum(a, b) {
+//   console.log("zbir je", a + b);
+// }
+
+// sum(2, 3);
+
+// sum(9, 10);
+
+// function sayHelloNTimes(times) {
+//   for (i = 0; i < times; i++) {
+//     console.log("HELLO", i);
+//   }
+// }
+
+// sayHelloNTimes(2);
+// console.log("+++++++++++++++++");
+
+// sayHelloNTimes(10);
+
+// function sum() {
+//   console.log("ZBIR JE ", a + b);
+// }
+
+// a = 3;
+// b = 5;
+// sum();
+
+// a = 1;
+
+// sum();
+
+// function sum(a, b) {
+//   console.log(a + b);
+// }
+
+// unos1 = Number(prompt());
+// unos2 = Number(prompt());
+
+// sum(unos1, unos2);
+
+// function square(num) {
+//   console.log(num ** 2);
+// }
+
+// square(3);
+// square(20);
+
+function checkIsPrime(num) {
+  isPrime = false;
+  for (i = 2; i < num; i++) {
+    if (num % i === 0) {
+      isPrime = true;
+      break;
+    }
+  }
+
+  if (!isPrime) {
+    console.log("BROJ JE PROST");
+  } else {
+    console.log("BROJ NIJE PROST");
+  }
+}
+
+checkIsPrime(5);
