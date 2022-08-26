@@ -317,20 +317,100 @@
 // square(3);
 // square(20);
 
-function checkIsPrime(num) {
-  isPrime = false;
-  for (i = 2; i < num; i++) {
-    if (num % i === 0) {
-      isPrime = true;
-      break;
-    }
-  }
+// function checkIsPrime(num) {
+//   isPrime = false;
+//   for (i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//       isPrime = true;
+//       break;
+//     }
+//   }
 
-  if (!isPrime) {
-    console.log("BROJ JE PROST");
-  } else {
-    console.log("BROJ NIJE PROST");
-  }
-}
+//   if (!isPrime) {
+//     console.log("BROJ JE PROST");
+//   } else {
+//     console.log("BROJ NIJE PROST");
+//   }
+// }
 
-checkIsPrime(5);
+// checkIsPrime(5);
+
+// function checkIsNumberEven(num) {
+//   if (num % 2 === 0) {
+//     console.log("broj je paran");
+//   } else {
+//     console.log("broj je neparan");
+//   }
+// }
+
+// checkIsNumberEven(10);
+
+// console.log("HILJDAU LINIJA KODAAAAA");
+// checkIsNumberEven(7);
+
+// function a(nesto) {
+//   console.log(nesto);
+// }
+// name = "Daris";
+
+// function sayHello() {
+//   console.log("HELLO TO MY FRIEND " + name);
+// }
+
+// sayHello();
+
+// name = "Adnan";
+// sayHello();
+
+// arr = [1, 2, 3, 4];
+
+// c = arr.push();
+
+// console.log(arr);
+// console.log("Vracena vrednost je  ", c);
+
+// function sum(a, b) {
+//   console.log("Pocetak funkc");
+//   return a + b;
+//   console.log("Nesto");
+// }
+
+// a = sum(2, 5);
+
+// console.log(a);
+
+// function whatday(num) {
+//   days = [
+//     "Sunday",
+//     "Monday",
+//     "Tuesday",
+//     "Wednesday",
+//     "Thursday",
+//     "Friday",
+//     "Saturday",
+//   ];
+
+//   if (num > 7 || num < 1) {
+//     return "Wrong, please enter a number between 1 and 7";
+//   }
+
+//   return days[num - 1];
+// }
+
+// a = "Daris";
+
+// b = a;
+
+// a += "NESTO";
+
+// console.log("A:", a);
+// console.log("b:", b);
+
+a = [1, 2, 3];
+
+b = a;
+
+a.push(10);
+
+console.log("A:", a);
+console.log("b:", b);
