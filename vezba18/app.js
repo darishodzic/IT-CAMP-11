@@ -105,7 +105,8 @@
 
 // console.log("PRE FORA");
 
-// for (i = 5; i <= 1000; i++) {
+// for (i = 5; i <= 1000; i++npm install @mui/material @emotion/react @emotion/styled
+// ) {
 //   console.log(i);
 // }
 
@@ -406,11 +407,73 @@
 // console.log("A:", a);
 // console.log("b:", b);
 
-a = [1, 2, 3];
+// a = [1, 2, 3];
 
-b = a;
+// b = a;
 
-a.push(10);
+// a.push(10);
 
-console.log("A:", a);
-console.log("b:", b);
+// console.log("A:", a);
+// console.log("b:", b);
+// arr = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// for (i = 0; i < arr.length; i++) {
+//   console.log(arr[i][i]);
+// }
+
+// console.log(arr[0][0]);
+// console.log(arr[1][1]);
+// console.log(arr[2][2]);
+
+// arr = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// // console.log(arr[0][2]);
+// // console.log(arr[1][1]);
+// // console.log(arr[2][0]);
+
+// for (i = 0; i < arr.length; i++) {
+//   console.log(arr[i][arr.length - 1 - i]);
+// }
+
+// console.log("*");
+// console.log("**");
+// console.log("***");
+// console.log("****");
+
+// unos = Number(prompt("unesi broj"));
+// str = "";
+// for (i = 1; i <= unos; i++) {
+//   str += i;
+//   console.log(str);
+// }
+
+// unos = Number(prompt("unesi broj"));
+
+// for (i = 1; i <= unos; i++) {
+//   str = "";
+//   for (j = 0; j < i; j++) {
+//     str += i;
+//   }
+//   console.log(str);
+// }
+
+unos = Number(prompt("unesi broj"));
+
+lastN = 0;
+
+for (i = 1; i <= unos; i++) {
+  str = "";
+  for (j = 0; j < i; j++) {
+    lastN++;
+    str += lastN;
+  }
+  console.log(str);
+}
