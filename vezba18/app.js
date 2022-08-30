@@ -465,15 +465,53 @@
 //   console.log(str);
 // }
 
-unos = Number(prompt("unesi broj"));
+// unos = Number(prompt("unesi broj"));
 
-lastN = 0;
+// lastN = 0;
 
-for (i = 1; i <= unos; i++) {
-  str = "";
-  for (j = 0; j < i; j++) {
-    lastN++;
-    str += lastN;
-  }
-  console.log(str);
-}
+// for (i = 1; i <= unos; i++) {
+//   str = "";
+//   for (j = 0; j < i; j++) {
+//     lastN++;
+//     str += lastN;
+//   }
+//   console.log(str);
+// }
+
+// console.log("   *   ");
+// console.log("  * *  ");
+// console.log(" * * * ");
+// console.log("* * * *");
+
+// unos = 4;
+
+// zvezdice = "*";
+// for (i = 0; i < unos; i++) {
+//   razmak = "";
+
+//   for (j = i; j < unos - 1; j++) {
+//     razmak += " ";
+//   }
+
+//   console.log(razmak + zvezdice);
+//   zvezdice += " *";
+// }
+
+// "Hello World";
+//  012345678910
+
+rec = "Hello World";
+
+// console.log(rec.toUpperCase());
+// console.log(rec.toLowerCase());
+// console.log(rec.split(""));
+// console.log(rec.includes("orld"));
+// console.log(rec.startsWith("He"));
+// console.log(rec.slice(2, 9));
+
+// console.log(rec.indexOf("l"));
+
+// console.log(rec.concat("Daris", "Nesto"));
+// console.log(rec.trim());
+a = rec.replace("World", "DARIS");
+console.log(a);
