@@ -500,7 +500,7 @@
 // "Hello World";
 //  012345678910
 
-rec = "Hello World";
+// rec = "Hello World";
 
 // console.log(rec.toUpperCase());
 // console.log(rec.toLowerCase());
@@ -513,5 +513,127 @@ rec = "Hello World";
 
 // console.log(rec.concat("Daris", "Nesto"));
 // console.log(rec.trim());
-a = rec.replace("World", "DARIS");
-console.log(a);
+// a = rec.replace("World", "DARIS");
+// console.log(a);
+
+// arr = [1, 2, 3, 4, 5, 6];
+
+// for (i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// arr.forEach((el, i, array) => {
+//   console.log(array);
+// });
+
+// function nasForEach(fun) {
+//   for (i = 0; i < arr.length; i++) {
+//     fun(arr[i], i, arr);
+//   }
+// }
+
+// nasForEach((item) => {
+//   console.log("Ove je el", item);
+// });
+
+// arr = [1, 2, 3, 4, 5, 6];
+
+// c = [];
+
+// for (i = 0; i < arr.length; i++) {
+//   c.push(arr[i] * 10);
+// }
+
+// c = arr.map((el) => {
+//   return el * 10;
+// });
+
+// function nasMap(fun) {
+//   b = [];
+//   for (i = 0; i < arr.length; i++) {
+//     b.push(fun(arr[i], i, arr));
+//   }
+//   return b;
+// }
+
+// c = nasMap((el) => el * 10);
+
+// console.log(c);
+
+// arr = [1, 2, 3, 4, 5, 6];
+
+// c = [];
+
+// for (i = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 === 0) {
+//     c.push(arr[i]);
+//   }
+// }
+
+// c = arr.filter((el) => {
+//   return el % 2 === 0;
+// });
+
+// console.log(c);
+
+// arr = [1, 2, 3, 4, 5, 6];
+
+// // total = 0;
+// // for (i = 0; i < arr.length; i++) {
+// //   total += arr[i];
+// // }
+
+// total = arr.reduce((el, sum) => {
+//   return el + sum;
+// }, 0);
+
+// console.log(total);
+
+// function doubleNumbers(arr) {
+//   return arr.map((el) => el * 2);
+// }
+
+// console.log(doubleNumbers([2, 5, 100])); // [4, 10, 200]
+
+// function capitalizeNames(arr) {
+//   return arr.map((el) => el[0].toUpperCase() + el.slice(1).toLowerCase());
+// }
+
+// console.log(capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"])); // ["John", "Jacob", "Jingleheimer", "Schmidt"]
+
+// function fiveAndGreaterOnly(arr) {
+//   return arr.filter((el) => el > 5);
+// }
+// // test
+// console.log(fiveAndGreaterOnly([3, 6, 8, 2])); /// [6, 8]
+
+// function fiveCharactersOrFewerOnly(arr) {
+//   // your code here
+//   return arr.filter((el) => el.length <= 5);
+// }
+// // test
+// console.log(
+//   fiveCharactersOrFewerOnly(["dog", "wolf", "by", "family", "eaten", "camping"])
+// ); // ["by", "dog", "wolf", "eaten"]
+
+// function stringConcat(arr) {
+//   return arr.reduce((el, val) => {
+//     return String(el) + val;
+//   }, "");
+// }
+
+// console.log(stringConcat([1, 2, 3])); // "123"
+
+numbers = [10, 20, 10, 40, 50, 60, 70];
+target = 50;
+
+for (i = 0; i < numbers.length; i++) {
+  rest = target - numbers[i];
+
+  const indexOfRest = numbers.indexOf(rest);
+
+  if (indexOfRest > -1) {
+    console.log(indexOfRest, i);
+    break;
+  }
+}
