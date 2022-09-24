@@ -624,16 +624,51 @@
 
 // console.log(stringConcat([1, 2, 3])); // "123"
 
-numbers = [10, 20, 10, 40, 50, 60, 70];
-target = 50;
+// numbers = [10, 20, 10, 40, 50, 60, 70];
+// target = 50;
 
-for (i = 0; i < numbers.length; i++) {
-  rest = target - numbers[i];
+// for (i = 0; i < numbers.length; i++) {
+//   rest = target - numbers[i];
 
-  const indexOfRest = numbers.indexOf(rest);
+//   const indexOfRest = numbers.indexOf(rest);
 
-  if (indexOfRest > -1) {
-    console.log(indexOfRest, i);
-    break;
-  }
+//   if (indexOfRest > -1) {
+//     console.log(indexOfRest, i);
+//     break;
+//   }
+// }
+
+// document.getElementById("naslov")
+// document.getElementsByClassName("card");
+// document.getElementsByTagName("h1");
+// document.querySelector("div h1");
+// document.querySelectorAll(".card div");
+
+// el = document.getElementById("naslov");
+
+// el.innerText = "Nesto";
+// el.style.backgroundColor = "red";
+// el.style.color = "yellow";
+
+// naslov = document.getElementById("naslov");
+
+// naslov.addEventListener("click", sayHello);
+
+// function sayHello() {
+//   el = document.getElementById("naslov");
+//   if (el.style.background === "red") {
+//     el.style.background = "blue";
+//   } else {
+//     el.style.background = "red";
+//   }
+// }
+
+counter = document.getElementById("counter");
+
+function decrement() {
+  counter.innerText = Number(counter.innerText) - 1;
+}
+
+function increment() {
+  counter.innerText = Number(counter.innerText) + 1;
 }
