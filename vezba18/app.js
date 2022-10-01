@@ -638,10 +638,14 @@
 //   }
 // }
 
-// document.getElementById("naslov")
+// document.getElementById("naslov");
+
 // document.getElementsByClassName("card");
+
 // document.getElementsByTagName("h1");
-// document.querySelector("div h1");
+
+// document.querySelector("div .daris");
+
 // document.querySelectorAll(".card div");
 
 // el = document.getElementById("naslov");
@@ -663,12 +667,52 @@
 //   }
 // }
 
-counter = document.getElementById("counter");
+// naslov = document.getElementById("text");
 
-function decrement() {
-  counter.innerText = Number(counter.innerText) - 1;
-}
+// naslov.addEventListener("click", () => {
+//   console.log("CLICK EVENT ON NASLOV");
+//   naslov.style.backgroundColor = "red";
+//   naslov.style.color = "yellow";
+//   naslov.innerText = "CLICK EVENT";
+// });
 
-function increment() {
-  counter.innerText = Number(counter.innerText) + 1;
-}
+// unos = document.getElementById("unos");
+
+// unos.addEventListener("change", (e) => {
+//   console.log("NESTO SE DESILO U INPUT");
+//   console.log(e.target.value);
+// });
+
+// naslov = document.getElementById("text");
+// nasDiv = document.getElementById("nesto");
+
+// naslov.addEventListener("click", () => {
+//   el = document.createElement("h4");
+
+//   el.innerText = "Daris";
+//   el.style.fontSize = "30px";
+//   el.style.color = "blue";
+//   console.log(el);
+
+//   nasDiv.appendChild(el);
+// });
+
+// unos = document.getElementById("unos");
+// container = document.getElementById("container");
+
+// unos.addEventListener("change", (e) => {
+//   el = document.createElement("h3");
+//   el.innerText = e.target.value;
+//   container.appendChild(el);
+// });
+
+unos = document.getElementById("unos");
+container = document.getElementById("container");
+button = document.getElementById("submit");
+
+button.addEventListener("click", () => {
+  el = document.createElement("h3");
+  el.innerText = unos.value;
+  container.appendChild(el);
+  unos.value = "";
+});
