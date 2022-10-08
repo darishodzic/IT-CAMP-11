@@ -706,13 +706,40 @@
 //   container.appendChild(el);
 // });
 
-unos = document.getElementById("unos");
-container = document.getElementById("container");
-button = document.getElementById("submit");
+// unos = document.getElementById("unos");
+// container = document.getElementById("container");
+// button = document.getElementById("submit");
 
-button.addEventListener("click", () => {
-  el = document.createElement("h3");
-  el.innerText = unos.value;
-  container.appendChild(el);
-  unos.value = "";
-});
+// button.addEventListener("click", () => {
+//   el = document.createElement("h3");
+//   el.innerText = unos.value;
+//   container.appendChild(el);
+//   unos.value = "";
+// });
+
+// console.log("Nesto");
+
+// setTimeout(() => {
+//   console.log("Nesto");
+// }, 2000);
+
+// console.log("Hello World");
+
+fetch("https://catfact.ninja/facts")
+  .then((res) => {
+    res.json().then((res) => {
+      console.log(res.data);
+      maxNum = 0;
+      for (el of res.data) {
+        if (el.length > maxNum) {
+          maxNum = el.length;
+        }
+      }
+      fact = res.data.find((el) => el.length === maxNum);
+      console.log(maxNum);
+      console.log(fact);
+    });
+  })
+  .catch((err) => {
+    console.log("NEUSPPESNO ZBG ERRORA", err);
+  });
